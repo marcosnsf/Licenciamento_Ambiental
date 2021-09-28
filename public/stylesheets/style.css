@@ -1,0 +1,42 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: auto;
+   background: linear-gradient(to bottom,white ,white, rgba(105, 202, 105,0.6));
+}
+
+.acolor{
+  color:black;
+  margin: 10px 16px 0 16px;
+  text-decoration: none;
+}
+.acolor:hover{
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+nav{
+  padding: 40px 0;
+  background-color: #87CEEB;
+}
+
+tr{
+  background-color:  	#3CB371;
+  text-align: center;
+  padding: 0 4px;
+}
+li a{
+  color: #000000;
+  margin: 0 4px;
+  font-size: 18px;
+}
+.titulo_nav{
+  font-size: 22px;
+  padding: 4px;
+}
+footer {
+  position: relative;
+  top: 99px;
+  height:380px;
+  background: url("/footer.png") repeat-x;
+}
